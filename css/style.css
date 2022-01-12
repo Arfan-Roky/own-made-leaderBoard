@@ -1,3 +1,7 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+
 /*------------------
     base code
 ----------------- */
@@ -8,6 +12,7 @@
 }
 
 body {
+ font-family: 'Poppins', sans-serif;
 }
 
 main {
@@ -62,6 +67,7 @@ header {
   justify-content: space-around;
   align-items: center;
   color: var(--extraColor);
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -194,6 +200,7 @@ nav ul li img {
 }
 
 .courseCard {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
